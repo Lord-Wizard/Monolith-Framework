@@ -1,0 +1,1 @@
+package colors;import java.awt.Color;public class mColors{	public static Color invert(Color c)	{		int invR = 255 - c.getRed();		int invG = 255 - c.getGreen();		int invB = 255 - c.getBlue();				return new Color(invR, invG, invB);	}}
